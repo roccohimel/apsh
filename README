@@ -1,0 +1,27 @@
+APSH
+====
+
+APSH stands for "Active Portable Shell". My goal is to create a C++ based shell that uses built
+in funtions/commands (like RW and filesystem commands) instead of using preinstalled binaries.
+This makes the shell portable for any computer, without the need of proper utilities or dependency
+issues. Additionally, you could run a command that lets you use your own binaries that were pre
+installed with your distribution. Here are some of the dependencies you need for compiling APSH:
+
+- Git
+
+- BASH
+
+- GNU Compiler Collection (gcc)
+
+- GCC's C++ compiler (g++)
+
+
+Right now, APSH is only avalible for POSIX systems, including:
+
+- Linux distributions (Debian, Gentoo, etc)
+
+- BSD distributions (FreeBSD, OpenBSD, NetBSD)
+
+- UNIX distributions (They are somewhat dead, but APSH is compatible with them.)
+
+- MacOS systems (MacOS is NetBSD based.)
